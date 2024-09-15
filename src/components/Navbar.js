@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink } from 'react-router-hash-link';
-import { BrowserRouter as Router } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export const NavBar = () => {
 
-    const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
   
     useEffect(() => {
@@ -22,32 +20,36 @@ export const NavBar = () => {
       return () => window.removeEventListener("scroll", onScroll);
     }, [])
   
-    const onUpdateActiveLink = (value) => {
-      setActiveLink(value);
-    }
-  
     return (
-      <Router>
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
           <Container>
+          <NavLink className="navbar-brand" to="/">
+            UNCW Public Health Travel Study Uganda/Belize
+          </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                <NavLink href="/home" className="nav-link" to="/">Home</NavLink>
               </Nav>
-              <span className="navbar-text">
-                <div className="social-icon">
-                </div>
-                {/* <HashLink to='#connect'>
-                  <button className="vvd"><span>Contact Me</span></button>
-                </HashLink> */}
-              </span>
+              <div>
+                <ul className="navbar-nav ml-auto">
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/uganda">
+                      Uganda
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="https://sites.google.com/celabelize.com/uncw-global-health/home" target="_blank" rel="noopener noreferrer">
+                      Belize
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      </Router>
     )
   }
   

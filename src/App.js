@@ -1,15 +1,22 @@
 import './App.css';
 import { NavBar } from './components/Navbar';
+import { Footer } from './components/Footer';
+import Home from './components/Home';
+import Uganda from './components/Uganda';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <NavBar />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
-    </div>
+      <div className="app">
+        <NavBar />
+        <Routes> 
+          <Route path="/" element={<Home />} />
+          <Route path="/uganda" element={<Uganda />} />
+        </Routes>
+        <Footer />
+      </div>
   );
-}
+};
 
 export default App;
