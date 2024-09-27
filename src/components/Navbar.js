@@ -45,6 +45,11 @@ export const NavBar = () => {
                       Belize
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/excursions">
+                      Excursions
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </Navbar.Collapse>
