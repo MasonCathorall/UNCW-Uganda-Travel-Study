@@ -1,8 +1,7 @@
 import React from "react";
-import WorldImg from "../assets/Political-World-Map.jpg";
-import UgandaImg from "../assets/political-uganda.jpg";
-import BelizeImg from "../assets/belize-image.gif";
-import HillImg from "../assets/hill-img.jpg";
+import FlagImg from "../../assets/Flag_of_Uganda.svg.png";
+import UgandaImg from "../../assets/political-uganda.jpg";
+import SeaHawksImg from "../../assets/seahawks-logo.png";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -11,10 +10,10 @@ function Uganda() {
       <div className="container">
         <div className="align-items-center my-5">
           <div>
-            <img className="worldImg" src={WorldImg} alt="Political World Map"/>
-            <h1 className="centered1">Global Health Research</h1>
-            <h1 className="centered2">Methods & Program Implementation</h1>
-            <h1 className="centered3">in Uganda</h1>
+            <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
+            <h1 className="c1">Global Health Research</h1>
+            <h1 className="c2">Methods & Program Implementation</h1>
+            <h1 className="c3">in Uganda</h1>
           </div>
         </div>
         <div className="blueRow">
@@ -27,7 +26,7 @@ function Uganda() {
         <Row >
           <Col>
               <Link className="nav-link" to="/uganda" >
-                <img src={UgandaImg} alt="ugandaImage" />
+                <img src={UgandaImg} alt="uganda country" />
               </Link>
           </Col>
           <Col>
@@ -42,23 +41,59 @@ function Uganda() {
               <div className="info">Summer</div>
           </Col>
           <Col>
-              <Link className="nav-link" to="https://sites.google.com/celabelize.com/uncw-global-health/home" target="_blank" rel="noopener noreferrer">
-                <img src={BelizeImg} alt="belizeImage" />
-              </Link>
+                <img src={SeaHawksImg} alt="uncw seahawks" />
           </Col>
         </Row>
         <br />
         <br />
-        <div className="contact">
-          <br />
-            <div className="moreInfo">FOR MORE INFORMATION CONTACT</div>
-            <div className="contactInfo">Dr. Michelle Cathorall: <span className="email">cathorallm@uncw.edu</span> </div>
-          <br />
-        </div>
-        <br />
-        <br />
         <Row>
-          <img src={HillImg} alt="PeopleHill"/>
+          <div>
+            <div className="description">Program Description</div>
+            <ul>
+              <li>Students will spend 6-weeks immersed in Ugandan culture, living and working with Ugandan students.</li>
+              <li>Students will work in a local village on a team with Ugandan students to collect research data and implement the Malaria Mastery prevention program.</li>
+              <li>We will travel to Kampala for meetings at the Ministry of Health with the Malaria Elimination Program and to the Uganda National Virus Institute's Target Malaria program to discuss their efforts to eliminate malaria.</li>
+              <li>Cultural and sight seeing visits to a UNESCO Heritage site and National Museum.</li>
+              <li>Two overnight excursions to different towns to get a sense of the beauty and variety Uganda has to offer.</li>
+              <li>End the experience with a week-long safari, including Rhino tracking, Chimpanzee tracking, and Murchison Falls National Park.</li>
+            </ul>
+          </div>
+        </Row>
+        <br />
+        <br />
+        <div className="tripleTitle">Global Health Research and Program Implementation</div>
+        <Row>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+          <div>div1</div>
+          </Col>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+          <div>div2</div>
+          </Col>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+          <div>div2</div>
+          </Col>
+        </Row>
+        <br />
+        <br />
+        <div className="tripleTitle">Section 2</div>
+        <Row>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+          <div>Research Data Collection</div>
+          </Col>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+          <div>Malaria Mastery Program Implementation</div>
+          </Col>
+          <Col>
+          <img src="holder.js/100px180" alt="place" />
+            <Link className="nav-link" to="/excursions" >
+              <div>Overnight Excursions</div>
+            </Link>
+          </Col>
         </Row>
         <br />
         <br />

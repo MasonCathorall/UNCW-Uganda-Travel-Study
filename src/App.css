@@ -58,12 +58,12 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-/* @media (min-width:1700px) {
+@media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
 		padding: 0 150px;
 	}
-} */
+}
 
 .container {
   text-align: center;
@@ -138,4 +138,74 @@ input:focus, textarea:focus, select:focus {
 .email {
   color: #144d5e;
   text-decoration: underline;
+}
+
+ul {
+  list-style-type:circle
+}
+
+.center1 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.center2 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.center3 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.c1 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.c2 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.c3 {
+  text-shadow: 2px 2px 2px #000000;   
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 40px;
 }
