@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -11,15 +11,15 @@ html {
 }
 
 body {
-  font-weight: 400;
+  /* font-weight: 400;
   overflow-x: hidden;
   position: relative;
   background-color: #ffffff !important;
-  color: #000000 !important;
+  color: #000000 !important; */
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -30,11 +30,7 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
+} */
 
 img {
   width: 100%;
@@ -46,16 +42,6 @@ img {
   height: 150%;
   /* background-size: 100% auto; */
   background-position: center;
-}
-
-
-button {
-  border: 0;
-  background-color: transparent;
-}
-
-input:focus, textarea:focus, select:focus {
-  outline: none;
 }
 
 @media (min-width:1700px) {
@@ -148,7 +134,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 19%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -159,7 +145,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -170,7 +156,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 57%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -181,7 +167,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -192,7 +178,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -203,9 +189,36 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
   font-size: 40px;
+}
+
+.exTitle {
+  background-color:#e8eaeb;
+  color: rgba(30, 108, 147, 1);
+  font-weight: 750;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.rows {
+  background-color: rgba(30, 108, 147, 1);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.descriptionTitle {
+  color: rgba(30, 108, 147, 1);
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.description {
+  text-align: left;
+  color: rgba(30, 108, 147, 1);
+  font-size: 18px;
 }

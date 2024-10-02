@@ -4,6 +4,7 @@ import UgandaImg from "../../assets/political-uganda.jpg";
 import SeaHawksImg from "../../assets/seahawks-logo.png";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import HillImg from "../../assets/hill-img.jpg";
 
 function Uganda() {
   return (
@@ -48,52 +49,38 @@ function Uganda() {
         <br />
         <Row>
           <div>
-            <div className="description">Program Description</div>
-            <ul>
-              <li>Students will spend 6-weeks immersed in Ugandan culture, living and working with Ugandan students.</li>
-              <li>Students will work in a local village on a team with Ugandan students to collect research data and implement the Malaria Mastery prevention program.</li>
-              <li>We will travel to Kampala for meetings at the Ministry of Health with the Malaria Elimination Program and to the Uganda National Virus Institute's Target Malaria program to discuss their efforts to eliminate malaria.</li>
-              <li>Cultural and sight seeing visits to a UNESCO Heritage site and National Museum.</li>
-              <li>Two overnight excursions to different towns to get a sense of the beauty and variety Uganda has to offer.</li>
-              <li>End the experience with a week-long safari, including Rhino tracking, Chimpanzee tracking, and Murchison Falls National Park.</li>
+            <div className="descriptionTitle">Program Description</div>
+            <ul className="description">
+              <li className="descript">Students will spend 6-weeks immersed in Ugandan culture, living and working with Ugandan students.</li>
+              <li className="descript">Students will work in a local village on a team with Ugandan students to collect research data and implement the Malaria Mastery prevention program.</li>
+              <li className="descript">We will travel to Kampala for meetings at the Ministry of Health with the Malaria Elimination Program and to the Uganda National Virus Institute's Target Malaria program to discuss their efforts to eliminate malaria.</li>
+              <li className="descript">Cultural and sight seeing visits to a UNESCO Heritage site and National Museum.</li>
+              <li className="descript">Two overnight excursions to different towns to get a sense of the beauty and variety Uganda has to offer.</li>
+              <li className="descript">End the experience with a week-long safari, including Rhino tracking, Chimpanzee tracking, and Murchison Falls National Park.</li>
             </ul>
           </div>
         </Row>
         <br />
         <br />
-        <div className="tripleTitle">Global Health Research and Program Implementation</div>
-        <Row>
+        <div className="exTitle">Global Health Research and Program Implementation</div>
+        <Row className="rows">
           <Col>
-          <img src="holder.js/100px180" alt="place" />
-          <div>div1</div>
+          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <div>Research Data Collection</div>
           </Col>
           <Col>
-          <img src="holder.js/100px180" alt="place" />
-          <div>div2</div>
+          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <div>Malaria Mastery Program Implementation</div>
           </Col>
           <Col>
-          <img src="holder.js/100px180" alt="place" />
-          <div>div2</div>
+          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <div>Overnight Excursions</div>
           </Col>
         </Row>
         <br />
         <br />
-        <div className="tripleTitle">Section 2</div>
         <Row>
-          <Col>
-          <img src="holder.js/100px180" alt="place" />
-          <div>Research Data Collection</div>
-          </Col>
-          <Col>
-          <img src="holder.js/100px180" alt="place" />
-          <div>Malaria Mastery Program Implementation</div>
-          </Col>
-          <Col>
-          <img src="holder.js/100px180" alt="place" />
-            <Link className="nav-link" to="/excursions" >
-              <div>Overnight Excursions</div>
-            </Link>
-          </Col>
+          <img src={HillImg} alt="PeopleHill"/>
         </Row>
         <br />
         <br />

@@ -1,7 +1,8 @@
 import React from "react";
 import FlagImg from "../assets/Flag_of_Uganda.svg.png";
 import { Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import HillImg from "../assets/hill-img.jpg";
+
 
 function Excursions() {
     return (
@@ -14,14 +15,99 @@ function Excursions() {
               <h1 className="center3">in Uganda</h1>
             </div>
           </div>
-          <div className="exTitle">SIPI FALLS</div>
-          <Row></Row>
-          <div className="exTitle">JINJA TOWN</div>
-          <Row></Row>
-          <div className="exTitle">SAFARI</div>
-          <Row></Row>
-          <div className="exTitle">PAST STUDENTS' EXPERIENCE</div>
-          <Row></Row>
+          <div className="exTitle">
+          <br />
+          SIPI FALLS
+          <br />
+          <br />
+          </div>
+          <Row className="rows">
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+          </Row>
+          <div className="exTitle">
+          <br />
+          JINJA TOWN
+          <br />
+          <br />
+          </div>
+          <Row className="rows">
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+          </Row>
+          <div className="exTitle">
+          <br />
+          SAFARI
+          <br />
+          <br />
+          </div>
+          <Row className="rows">
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div>Rhino Tracking</div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div>Chimpanzee Tracking</div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div>Murchison Falls</div>
+            </Col>
+          </Row>
+          <div className="exTitle">
+          <br />
+          PAST STUDENTS' EXPERIENCE
+          <br />
+          <br />
+          </div>
+          <Row className="rows">
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+            <Col>
+            <img data-src="holder.js/300x200" alt="placeholder"/>
+            <div></div>
+            </Col>
+          </Row>
+          <br />
+          <br />
+          <Row>
+            <img src={HillImg} alt="PeopleHill"/>
+          </Row>
           <br />
           <br />
         </div>
