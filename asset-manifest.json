@@ -1,21 +1,37 @@
 {
   "files": {
-    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.48b2125c.css",
-    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.a224bf3f.js",
+    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.1b8b44cc.css",
+    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.58500ce9.js",
     "static/js/453.35d55ca8.chunk.js": "/UNCW-Uganda-Travel-Study/static/js/453.35d55ca8.chunk.js",
+    "static/media/SF1 Student behind the falls on the hike.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF1 Student behind the falls on the hike.f8dd60c03df16b11b88c.jpeg",
+    "static/media/SF2 Katie and Jakub Sipi Falls 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/SF2 Katie and Jakub Sipi Falls 2024.c66b9d12c4486a5a4cf0.jpg",
+    "static/media/S4 Chimpanzee tracking.jpg": "/UNCW-Uganda-Travel-Study/static/media/S4 Chimpanzee tracking.8376521c09c61d2f40a0.jpg",
+    "static/media/JT1 Source of the Nile River.jpg": "/UNCW-Uganda-Travel-Study/static/media/JT1 Source of the Nile River.702669c4f269aa72cf56.jpg",
+    "static/media/S2 2024 on safari.jpg": "/UNCW-Uganda-Travel-Study/static/media/S2 2024 on safari.d9f45825a4a864e6ac4c.jpg",
+    "static/media/1 Safari with Giraffe and Flag.JPG": "/UNCW-Uganda-Travel-Study/static/media/1 Safari with Giraffe and Flag.109f52cc0846cb019ce2.JPG",
+    "static/media/4 Wings Up in Uganda 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/4 Wings Up in Uganda 2024.86ed469dd4671dcd07da.jpg",
+    "static/media/S3 Keeping an eye on the warthog.jpg": "/UNCW-Uganda-Travel-Study/static/media/S3 Keeping an eye on the warthog.2dd429159175b7ef7188.jpg",
+    "static/media/S1 Rhino tracking.jpg": "/UNCW-Uganda-Travel-Study/static/media/S1 Rhino tracking.b498b36131869282e051.jpg",
     "static/media/5 Welcome to Uganda sign.jpg": "/UNCW-Uganda-Travel-Study/static/media/5 Welcome to Uganda sign.b30d65c1fc211bbe120e.jpg",
+    "static/media/3 Malaria Memory game Malaria Mastery Program Implementation 2024.JPG": "/UNCW-Uganda-Travel-Study/static/media/3 Malaria Memory game Malaria Mastery Program Implementation 2024.e70d79d366b5838fc5c1.JPG",
+    "static/media/7 The top of Sipi Falls 2-cropped.jpg": "/UNCW-Uganda-Travel-Study/static/media/7 The top of Sipi Falls 2-cropped.a9db942c0fecdd36c02e.jpg",
+    "static/media/JT3 hike at cultural site.jpg": "/UNCW-Uganda-Travel-Study/static/media/JT3 hike at cultural site.86a4e7f7f24e9333b951.jpg",
     "static/media/Political-World-Map.jpg": "/UNCW-Uganda-Travel-Study/static/media/Political-World-Map.3fc58918331659ca2a12.jpg",
     "static/media/Good Uganda map.jpg": "/UNCW-Uganda-Travel-Study/static/media/Good Uganda map.f3e5193883bdec39bc46.jpg",
-    "static/media/hill-img.jpg": "/UNCW-Uganda-Travel-Study/static/media/hill-img.45a5876a09ce69bad12f.jpg",
+    "static/media/2 Data collection.JPG": "/UNCW-Uganda-Travel-Study/static/media/2 Data collection.e4d8001c3806bf2b0f8f.JPG",
+    "static/media/JT2 River rafting with Flag.jpeg": "/UNCW-Uganda-Travel-Study/static/media/JT2 River rafting with Flag.c7a7ef6c70254bb9f631.jpeg",
+    "static/media/SF4 Katie Abseiling extra activity.jpg": "/UNCW-Uganda-Travel-Study/static/media/SF4 Katie Abseiling extra activity.c0b5e478c05a3397483e.jpg",
+    "static/media/JT4 Fav rafting pix just after the level 5 rapid.jpg": "/UNCW-Uganda-Travel-Study/static/media/JT4 Fav rafting pix just after the level 5 rapid.976c9b0f930c2c3ae398.jpg",
+    "static/media/SF3 coffee farm.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF3 coffee farm.b05869d5e4d432e011bb.jpeg",
     "static/media/Flag_of_Uganda.svg.png": "/UNCW-Uganda-Travel-Study/static/media/Flag_of_Uganda.svg.3bf706ab9c5514828132.png",
     "static/media/belize-image.gif": "/UNCW-Uganda-Travel-Study/static/media/belize-image.bf8abba7f42b7d7dfddc.gif",
     "index.html": "/UNCW-Uganda-Travel-Study/index.html",
-    "main.48b2125c.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.48b2125c.css.map",
-    "main.a224bf3f.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.a224bf3f.js.map",
+    "main.1b8b44cc.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.1b8b44cc.css.map",
+    "main.58500ce9.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.58500ce9.js.map",
     "453.35d55ca8.chunk.js.map": "/UNCW-Uganda-Travel-Study/static/js/453.35d55ca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b2125c.css",
-    "static/js/main.a224bf3f.js"
+    "static/css/main.1b8b44cc.css",
+    "static/js/main.58500ce9.js"
   ]
 }
