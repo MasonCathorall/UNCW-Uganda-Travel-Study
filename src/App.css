@@ -40,8 +40,8 @@ img {
 .worldImg {
   width: 90%;
   height: 150%;
-  /* background-size: 100% auto; */
   background-position: center;
+  opacity: 65%;
 }
 
 @media (min-width:1700px) {
@@ -58,7 +58,7 @@ img {
 
 .centered1 {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -67,7 +67,7 @@ img {
 
 .centered2 {
   position: absolute;
-  top: 15%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -76,7 +76,7 @@ img {
 
 .centered3 {
   position: absolute;
-  top: 20%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -163,33 +163,11 @@ ul {
   font-size: 40px;
 }
 
-.c1 {
-  text-shadow: 2px 2px 2px #000000;   
-  color: #ffffff;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 700;
-  font-size: 40px;
-}
-
 .c2 {
-  text-shadow: 2px 2px 2px #000000;   
-  color: #ffffff;
+  /* text-shadow: 2px 2px 2px #000000;    */
+  color: #000000;
   position: absolute;
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 700;
-  font-size: 40px;
-}
-
-.c3 {
-  text-shadow: 2px 2px 2px #000000;   
-  color: #ffffff;
-  position: absolute;
-  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;

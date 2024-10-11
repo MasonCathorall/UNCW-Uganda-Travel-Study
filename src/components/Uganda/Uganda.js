@@ -1,20 +1,21 @@
 import React from "react";
 import FlagImg from "../../assets/Flag_of_Uganda.svg.png";
-import UgandaImg from "../../assets/political-uganda.jpg";
+import UgandaImg from "../../assets/Good Uganda map.jpg";
 import SeaHawksImg from "../../assets/seahawks-logo.png";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import HillImg from "../../assets/hill-img.jpg";
+import { NavBar } from '../Navbar';
+import { Footer } from '../Footer';
 
 function Uganda() {
   return (
       <div className="container">
+        <NavBar />
         <div className="align-items-center my-5">
           <div>
             <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
-            <h1 className="c1">Global Health Research</h1>
-            <h1 className="c2">Methods & Program Implementation</h1>
-            <h1 className="c3">in Uganda</h1>
+            <h1 className="c2">Applied Global Health</h1>
           </div>
         </div>
         <div className="blueRow">
@@ -62,7 +63,14 @@ function Uganda() {
         </Row>
         <br />
         <br />
-        <div className="exTitle">Global Health Research and Program Implementation</div>
+        <div className="exTitle">
+          <br />
+          Global Health Research and Program Implementation        
+          <br />
+          <br />
+        </div>
+        <br />
+        <br />
         <Row className="rows">
           <Col>
           <img data-src="holder.js/300x200" alt="placeholder"/>
@@ -75,6 +83,7 @@ function Uganda() {
           <Col>
           <img data-src="holder.js/300x200" alt="placeholder"/>
           <div>Overnight Excursions</div>
+          <br />
           </Col>
         </Row>
         <br />
@@ -84,6 +93,7 @@ function Uganda() {
         </Row>
         <br />
         <br />
+        <Footer />
       </div>
   );
 }

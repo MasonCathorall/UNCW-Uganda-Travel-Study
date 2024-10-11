@@ -1,14 +1,17 @@
 import React from "react";
 import WorldImg from "../assets/Political-World-Map.jpg";
-import UgandaImg from "../assets/political-uganda.jpg";
+import UgandaImg from "../assets/Good Uganda map.jpg";
 import BelizeImg from "../assets/belize-image.gif";
-import HillImg from "../assets/hill-img.jpg";
+import WelcomeImg from "../assets/5 Welcome to Uganda sign.jpg";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { NavBar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 function Home() {
   return (
       <div className="container">
+        <NavBar />
         <div className="align-items-center my-5">
           <div>
             <img className="worldImg" src={WorldImg} alt="Political World Map"/>
@@ -58,10 +61,11 @@ function Home() {
         <br />
         <br />
         <Row>
-          <img src={HillImg} alt="PeopleHill"/>
+          <img src={WelcomeImg} alt="Welcome to Uganda"/>
         </Row>
         <br />
         <br />
+        <Footer />
       </div>
   );
 }

@@ -2,11 +2,14 @@ import React from "react";
 import FlagImg from "../assets/Flag_of_Uganda.svg.png";
 import { Row, Col } from "react-bootstrap";
 import HillImg from "../assets/hill-img.jpg";
+import { NavBar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 
 function Excursions() {
     return (
         <div className="container">
+          <NavBar />
           <div className="align-items-center my-5">
             <div>
               <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
@@ -110,6 +113,7 @@ function Excursions() {
           </Row>
           <br />
           <br />
+          <Footer />
         </div>
     );
 }
