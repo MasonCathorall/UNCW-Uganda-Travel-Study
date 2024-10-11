@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.63fdac0b.css",
-    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.8b3ee802.js",
+    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.ab5467e8.css",
+    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.4705031b.js",
     "static/js/453.35d55ca8.chunk.js": "/UNCW-Uganda-Travel-Study/static/js/453.35d55ca8.chunk.js",
     "static/media/Political-World-Map.jpg": "/UNCW-Uganda-Travel-Study/static/media/Political-World-Map.3fc58918331659ca2a12.jpg",
     "static/media/hill-img.jpg": "/UNCW-Uganda-Travel-Study/static/media/hill-img.45a5876a09ce69bad12f.jpg",
@@ -9,12 +9,12 @@
     "static/media/Flag_of_Uganda.svg.png": "/UNCW-Uganda-Travel-Study/static/media/Flag_of_Uganda.svg.3bf706ab9c5514828132.png",
     "static/media/belize-image.gif": "/UNCW-Uganda-Travel-Study/static/media/belize-image.bf8abba7f42b7d7dfddc.gif",
     "index.html": "/UNCW-Uganda-Travel-Study/index.html",
-    "main.63fdac0b.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.63fdac0b.css.map",
-    "main.8b3ee802.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.8b3ee802.js.map",
+    "main.ab5467e8.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.ab5467e8.css.map",
+    "main.4705031b.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.4705031b.js.map",
     "453.35d55ca8.chunk.js.map": "/UNCW-Uganda-Travel-Study/static/js/453.35d55ca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63fdac0b.css",
-    "static/js/main.8b3ee802.js"
+    "static/css/main.ab5467e8.css",
+    "static/js/main.4705031b.js"
   ]
 }
