@@ -145,7 +145,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
@@ -156,7 +156,7 @@ ul {
   text-shadow: 2px 2px 2px #000000;   
   color: #ffffff;
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;

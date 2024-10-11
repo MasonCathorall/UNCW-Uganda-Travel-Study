@@ -2,9 +2,12 @@ import React from "react";
 import FlagImg from "../../assets/Flag_of_Uganda.svg.png";
 import UgandaImg from "../../assets/Good Uganda map.jpg";
 import SeaHawksImg from "../../assets/seahawks-logo.png";
+import DataCollection from "../../assets/2 Data collection.JPG";
+import Implementation from "../../assets/3 Malaria Memory game Malaria Mastery Program Implementation 2024.JPG";
+import ExcursionsImg from "../../assets/4 Wings Up in Uganda 2024.jpg";
+import SafariImg from "../../assets/1 Safari with Giraffe and Flag.JPG";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import HillImg from "../../assets/hill-img.jpg";
 import { NavBar } from '../Navbar';
 import { Footer } from '../Footer';
 
@@ -73,15 +76,29 @@ function Uganda() {
         <br />
         <Row className="rows">
           <Col>
-          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <br />
+          <br />
+          <img src={DataCollection} alt="Research Data Collection"/>
+          <br />
+          <br />
           <div>Research Data Collection</div>
+          <br />
           </Col>
           <Col>
-          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <br />
+          <br />
+          <img src={Implementation} alt="Malaria Mastery Program Implementation"/>
+          <br />
+          <br />
           <div>Malaria Mastery Program Implementation</div>
+          <br />
           </Col>
           <Col>
-          <img data-src="holder.js/300x200" alt="placeholder"/>
+          <br />
+          <br />
+          <img src={ExcursionsImg} alt="Overnight Excursions"/>
+          <br />
+          <br />
           <div>Overnight Excursions</div>
           <br />
           </Col>
@@ -89,7 +106,7 @@ function Uganda() {
         <br />
         <br />
         <Row>
-          <img src={HillImg} alt="PeopleHill"/>
+          <img src={SafariImg} alt="Safari"/>
         </Row>
         <br />
         <br />
