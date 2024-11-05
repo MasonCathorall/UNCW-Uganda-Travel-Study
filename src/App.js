@@ -10,7 +10,6 @@ const App = () => {
       <div className="app">
         <Routes basename={window.location.pathname || ''}> 
           <Route path="/" element={<Home />} />
-          <Route path="/UNCW-Uganda-Travel-Study" element={<Home />} />
           <Route path="/uganda" element={<Uganda />} />
           <Route path="/excursions" element={<Excursions />} />
         </Routes>

@@ -23,7 +23,7 @@ export const NavBar = () => {
     return (
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
           <Container>
-          <NavLink className="navbar-brand" to="/home">
+          <NavLink className="navbar-brand" to="/">
             UNCW Public Health Travel Study Uganda/Belize
           </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
