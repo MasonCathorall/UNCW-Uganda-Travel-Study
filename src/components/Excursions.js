@@ -159,16 +159,19 @@ function Excursions() {
             <br />
             </Col>
           </Row>
-          {/* <div className="exTitle">
-          <br />
-          PAST STUDENTS' EXPERIENCE
           <br />
           <br />
-          </div> */}
+          <div className="exTitle">
+            <br />
+            PAST STUDENTS EXPERIENCE'S        
+            <br />
+            <br />
+          </div>
 
+          <Row className="rows">
+          </Row>
           <br />
           <br />
-
           <Row>
             <img src={WelcomeImg} alt="Welcome to Uganda"/>
           </Row>
