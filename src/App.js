@@ -8,8 +8,9 @@ import { Route, Routes } from "react-router-dom";
 const App = () => {
   return (
       <div className="app">
-        <Routes> 
+        <Routes basename={'/UNCW-Uganda-Travel-Study'}> 
           <Route path="/" element={<Home />} />
+          <Route path="/UNCW-Uganda-Travel-Study" element={<Home />} />
           <Route path="/uganda" element={<Uganda />} />
           <Route path="/excursions" element={<Excursions />} />
         </Routes>
