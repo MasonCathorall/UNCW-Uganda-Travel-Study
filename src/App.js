@@ -9,8 +9,8 @@ import PastStudents from './components/PastStudents';
 const App = () => {
   return (
       <div className="app">
-        <Routes basename="/UNCW-Uganda-Travel-Study"> 
-          <Route exact path="/" render={<Home />} />
+        <Routes basename={process.env.PUBLIC_URL}> 
+          <Route path="/" exact render={<Home />} />
           <Route path="/uganda" render={<Uganda />} />
           <Route path="/excursions" render={<Excursions />} />
           <Route path="/paststudents" render={<PastStudents />} />
