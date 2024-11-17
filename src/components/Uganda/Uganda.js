@@ -26,9 +26,7 @@ function Uganda() {
           <div>Conduct global health research and implement a malaria prevention program in local villages</div>
           <br />
         </div>
-        <br />
-        <br />
-        <Row >
+        <Row className="doubleSpace">
           <Col>
               <Link className="nav-link" to="/uganda" >
                 <img src={UgandaImg} alt="uganda country" />
@@ -49,9 +47,7 @@ function Uganda() {
                 <img src={SeaHawksImg} alt="uncw seahawks" />
           </Col>
         </Row>
-        <br />
-        <br />
-        <Row>
+        <Row className="doubleSpace">
           <div>
             <div className="descriptionTitle">Program Description</div>
             <ul className="description">
@@ -64,53 +60,36 @@ function Uganda() {
             </ul>
           </div>
         </Row>
-        <br />
-        <br />
-        <div className="exTitle">
-          <br />
-          Global Health Research and Program Implementation        
-          <br />
-          <br />
+        <div className="doubleSpace">
+          <div className="exTitle">
+            <br />
+            <div>Global Health Research and Program Implementation</div>    
+            <br />
+          </div>
         </div>
-        <br />
-        <br />
-        <Row className="rows">
-          <Col>
-          <br />
-          <br />
-          <img src={DataCollection} alt="Research Data Collection"/>
-          <br />
-          <br />
-          <div>Research Data Collection</div>
-          <br />
-          </Col>
-          <Col>
-          <br />
-          <br />
-          <img src={Implementation} alt="Malaria Mastery Program Implementation"/>
-          <br />
-          <br />
-          <div>Malaria Mastery Program Implementation</div>
-          <br />
-          </Col>
-          <Col>
-          <br />
-          <br />
-          <img src={ExcursionsImg} alt="Overnight Excursions"/>
-          <br />
-          <br />
-          <div>Overnight Excursions</div>
-          <br />
-          </Col>
-        </Row>
-        <br />
-        <br />
-        <Row>
+        <div className="doubleSpace">
+          <Row className="rows">
+            <Col className="doubleSpace">
+            <img src={DataCollection} alt="Research Data Collection"/>
+            <div>Research Data Collection</div>
+            <br />
+            </Col>
+            <Col className="doubleSpace">
+            <img src={Implementation} alt="Malaria Mastery Program Implementation"/>
+            <div>Malaria Mastery Program Implementation</div>
+            <br />
+            </Col>
+            <Col className="doubleSpace">
+            <a className="nav-link" href="/excursions"><img src={ExcursionsImg} alt="Overnight Excursions"/></a>
+            <a className="nav-link" href="/excursions">Overnight Excursions</a>
+            <br />
+            </Col>
+          </Row>
+        </div>
+        <Row className="doubleSpace">
           <img src={SafariImg} alt="Safari"/>
         </Row>
-        <br />
-        <br />
-        <Footer />
+        <Footer className="doubleSpace"/>
       </div>
   );
 }

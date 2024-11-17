@@ -24,7 +24,7 @@ export const NavBar = () => {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
           <Container>
           <NavLink className="navbar-brand" to="/">
-            UNCW Public Health Travel Study Uganda/Belize
+            UNCW Public Health Travel Study Uganda
           </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
@@ -41,13 +41,13 @@ export const NavBar = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="https://sites.google.com/celabelize.com/uncw-global-health/home" target="_blank" rel="noopener noreferrer">
-                      Belize
+                    <Link className="nav-link" to="/excursions">
+                      Excursions
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/excursions">
-                      Excursions
+                    <Link className="nav-link" to="/paststudents">
+                      Past Students' Experience
                     </Link>
                   </li>
                 </ul>

@@ -25,9 +25,7 @@ function Home() {
           <div>Learn about contemporary global health issues while exploring beautiful Uganda or Belize!</div>
           <br />
         </div>
-        <br />
-        <br />
-        <Row >
+        <Row className="doubleSpace">
           <Col>
               <Link className="nav-link" to="/uganda" >
                 <img src={UgandaImg} alt="ugandaImage" />
@@ -50,22 +48,46 @@ function Home() {
               </Link>
           </Col>
         </Row>
-        <br />
-        <br />
-        <div className="contact">
+        {/* <div className="doubleSpace">
+          <div className="exTitle">
           <br />
-            <div className="moreInfo">FOR MORE INFORMATION CONTACT</div>
-            <div className="contactInfo">Dr. Michelle Cathorall: <span className="email">cathorallm@uncw.edu</span> </div>
-          <br />
+          Research & Presentations
+          </div>
+          <Row className="rows">
+            <Col>
+            <img src={null} alt="holder"/>
+            <div>holder</div>
+            <br />
+            </Col>
+            <Col>
+            <img src={null} alt="holder"/>
+            <div>holder</div>
+            <br />
+            </Col>
+            <Col>
+            <img src={null} alt="holder"/>
+            <div>holder</div>
+            <br />
+            </Col>
+            <Col>
+            <img src={null} alt="holder"/>
+            <div>holder</div>
+            <br />
+            </Col>
+          </Row>
+        </div> */}
+        <div className="doubleSpace">
+          <div className="contact">
+            <br />
+              <div className="moreInfo">FOR MORE INFORMATION CONTACT</div>
+              <div className="contactInfo">Dr. Michelle Cathorall: <span className="email">cathorallm@uncw.edu</span> </div>
+            <br />
+          </div>
         </div>
-        <br />
-        <br />
-        <Row>
+        <Row className="doubleSpace">
           <img src={WelcomeImg} alt="Welcome to Uganda"/>
         </Row>
-        <br />
-        <br />
-        <Footer />
+        <Footer className="doubleSpace" />
       </div>
   );
 }

@@ -35,148 +35,95 @@ function Excursions() {
           <br />
           <br />
           </div>
-          <Row className="rows">
-            <Col>
-            <br />
-            <br />
-            <img src={SF1} alt="Students Behind the Falls"/>
-            <br />
-            <br />
-            <div>Students Behind the Falls</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={SF2} alt="Katie and Jakub 2024"/>
-            <br />
-            <br />
-            <div>Katie and Jakub 2024</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={SF3} alt="Coffee Farm"/>
-            <br />
-            <br />
-            <div>Coffee Farm</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={SF4} alt="Katie Abseiling"/>
-            <br />
-            <br />
-            <div>Katie Abseiling</div>
-            <br />
-            </Col>
-          </Row>
-          <div className="exTitle">
-          <br />
-          JINJA TOWN
-          <br />
-          <br />
+          <div className="doubleSpace">
+            <Row className="rows">
+              <Col className="doubleSpace">
+              <img src={SF1} alt="Students Behind the Falls"/>
+              <div>Students Behind the Falls</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={SF2} alt="Katie and Jakub 2024"/>
+              <div>Katie and Jakub 2024</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={SF3} alt="Coffee Farm"/>
+              <div>Coffee Farm</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={SF4} alt="Katie Abseiling"/>
+              <div>Katie Abseiling</div>
+              <br />
+              </Col>
+            </Row>
           </div>
-          <Row className="rows">
-            <Col>
+          <div className="doubleSpace">
+            <div className="exTitle">
+            <br />
+            JINJA TOWN
             <br />
             <br />
-            <img src={JT1} alt="Source of the Nile"/>
-            <br />
-            <br />
-            <div>Source of the Nile</div>
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={JT2} alt="River Rafting with Flag"/>
-            <br />
-            <br />
-            <div>River Rafting with Flag</div>
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={JT3} alt="Hike at Cultural Site"/>
-            <br />
-            <br />
-            <div>Hike at Cultural Site</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={JT4} alt="Fav Rafting Pic"/>
-            <br />
-            <br />
-            <div>Fav Rafting Pic</div>
-            <br />
-            </Col>
-          </Row>
-          <div className="exTitle">
-          <br />
-          SAFARI
-          <br />
-          <br />
+            </div>
           </div>
-          <Row className="rows">
-            <Col>
+          <div className="doubleSpace">
+            <Row className="rows">
+              <Col className="doubleSpace">
+              <img src={JT1} alt="Source of the Nile"/>
+              <div>Source of the Nile</div>
+              </Col>
+              <Col className="doubleSpace">
+              <img src={JT2} alt="River Rafting with Flag"/>
+              <div>River Rafting with Flag</div>
+              </Col>
+              <Col className="doubleSpace">
+              <img src={JT3} alt="Hike at Cultural Site"/>
+              <div>Hike at Cultural Site</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={JT4} alt="Fav Rafting Pic"/>
+              <div>Fav Rafting Pic</div>
+              <br />
+              </Col>
+            </Row>
+            </div>
+          <div className="doubleSpace">
+            <div className="exTitle">
+            <br />
+            SAFARI
             <br />
             <br />
-            <img src={S1} alt="Rhino Tracking"/>
-            <br />
-            <br />
-            <div>Rhino Tracking</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={S2} alt="2024 on Safari"/>
-            <br />
-            <br />
-            <div>2024 On Safari</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={S3} alt="Keeping an eye on the warthog"/>
-            <br />
-            <br />
-            <div>Keeping An Eye On The Warthog</div>
-            <br />
-            </Col>
-            <Col>
-            <br />
-            <br />
-            <img src={S4} alt="Chimpanzee Tracking"/>
-            <br />
-            <br />
-            <div>Chimpanzee Tracking</div>
-            <br />
-            </Col>
-          </Row>
-          <br />
-          <br />
-          <div className="exTitle">
-            <br />
-            PAST STUDENTS EXPERIENCE'S        
-            <br />
-            <br />
+            </div>
           </div>
-
-          <Row className="rows">
-          </Row>
-          <br />
-          <br />
-          <Row>
+          <div className="doubleSpace">
+            <Row className="rows">
+              <Col className="doubleSpace">
+              <img src={S1} alt="Rhino Tracking"/>
+              <div>Rhino Tracking</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={S2} alt="2024 on Safari"/>
+              <div>2024 On Safari</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={S3} alt="Keeping an eye on the warthog"/>
+              <div>Keeping An Eye On The Warthog</div>
+              <br />
+              </Col>
+              <Col className="doubleSpace">
+              <img src={S4} alt="Chimpanzee Tracking"/>
+              <div>Chimpanzee Tracking</div>
+              <br />
+              </Col>
+            </Row>
+          </div>
+          <Row className="doubleSpace">
             <img src={WelcomeImg} alt="Welcome to Uganda"/>
           </Row>
-          <br />
-          <br />
           <Footer />
         </div>
     );
