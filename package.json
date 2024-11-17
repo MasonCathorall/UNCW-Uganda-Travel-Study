@@ -1,5 +1,6 @@
 {
   "homepage": "https://masoncathorall.github.io/UNCW-Uganda-Travel-Study",
+  "private": false,
   "name": "uganda-travel-study",
   "version": "0.1.0",
   "dependencies": {
