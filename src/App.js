@@ -9,7 +9,7 @@ import PastStudents from './components/PastStudents';
 const App = () => {
   return (
       <div className="app">
-        <Routes basename={process.env.PUBLIC_URL}> 
+        <Routes> 
           <Route path="/" exact render={<Home />} />
           <Route path="/uganda" render={<Uganda />} />
           <Route path="/excursions" render={<Excursions />} />
