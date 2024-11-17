@@ -17,7 +17,6 @@ import Marybeth from "../assets/students/Marybeth Johnson 2023.JPG";
 import Mica from "../assets/students/Mica Coleman 2018.jpg";
 import Monica from "../assets/students/Monica Co-Leader 2018.jpeg";
 import Stephan from "../assets/students/Stephen Co-Leader 2018.jpg";
-import { Link } from "react-router-dom";
 
 function PastStudents() {
     return (

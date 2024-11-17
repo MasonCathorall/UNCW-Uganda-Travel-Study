@@ -9,11 +9,11 @@ import PastStudents from './components/PastStudents';
 const App = () => {
   return (
       <div className="app">
-        <Routes basename={window.location.pathname || ''}> 
-          <Route path="/" element={<Home />} />
-          <Route path="/uganda" element={<Uganda />} />
-          <Route path="/excursions" element={<Excursions />} />
-          <Route path="/paststudents" element={<PastStudents />} />
+        <Routes basename={process.env.PUBLIC_URL}> 
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/uganda" element={<Uganda />} />
+          <Route exact path="/excursions" element={<Excursions />} />
+          <Route exact path="/paststudents" element={<PastStudents />} />
         </Routes>
       </div>
   );
