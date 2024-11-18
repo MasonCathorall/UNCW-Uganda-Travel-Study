@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className="blueRow">
           <br />
-          <div>Learn about contemporary global health issues while exploring beautiful Uganda or Belize!</div>
+          <div>Learn about contemporary global health issues while exploring beautiful Uganda!</div>
           <br />
         </div>
         <Row className="doubleSpace">

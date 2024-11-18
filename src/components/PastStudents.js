@@ -55,12 +55,12 @@ function PastStudents() {
             <div className="doubleSpace">
                 <Row className="rows1">
                     <Col className="doubleSpace1">
-                        <a href="https://www.dropbox.com/scl/fi/eddq399ogi35rk9ac0x4z/Marybeth-Johnson-part-1-2023.MOV?rlkey=ft3y66oj2lhdi265i5fhkarxj&st=e0vvk4my&dl=0">
+                    <div><a href="https://www.dropbox.com/scl/fi/eddq399ogi35rk9ac0x4z/Marybeth-Johnson-part-1-2023.MOV?rlkey=ft3y66oj2lhdi265i5fhkarxj&st=e0vvk4my&dl=0">
                             <img src={Marybeth} alt="Marybeth Johnson - 2023"/>
                             <div>Marybeth Johnson - 2023</div>
-                        </a>
-                        <a href="https://www.dropbox.com/scl/fi/7nx02d4s4mw45or8pb0wh/Marybeth-Johnson-part-2-2023.MOV?rlkey=giuagoh9910bdjhyxidc9hhwi&st=ibk6lxvn&dl=0">Part 2</a>
-                        <a href="https://www.dropbox.com/scl/fi/pjthvieufyi37ax5sbtac/Marybeth-Johnson-part-3-2023.MOV?rlkey=3btzfvphdvrbf1xvxlmxr48sj&st=i5juncwb&dl=0">Part 3</a>
+                        </a></div>
+                        <div><a href="https://www.dropbox.com/scl/fi/7nx02d4s4mw45or8pb0wh/Marybeth-Johnson-part-2-2023.MOV?rlkey=giuagoh9910bdjhyxidc9hhwi&st=ibk6lxvn&dl=0">Part 2</a></div>
+                        <div><a href="https://www.dropbox.com/scl/fi/pjthvieufyi37ax5sbtac/Marybeth-Johnson-part-3-2023.MOV?rlkey=3btzfvphdvrbf1xvxlmxr48sj&st=i5juncwb&dl=0">Part 3</a></div>
                     </Col>
                     <Col className="doubleSpace1">
                         <a href="https://youtu.be/r3T0DBgpBAU">
@@ -80,15 +80,15 @@ function PastStudents() {
             <div className="doubleSpace">
                 <Row className="rows1">
                     <Col className="doubleSpace1">
-                        <a href="https://www.youtube.com/watch?v=tsQSjUQ2kd0">
-                            <img src={Emma} alt="Emma Evans - 2023"/>
-                            <div>Emma Evans - 2023</div>
-                        </a>
-                    </Col>
-                    <Col className="doubleSpace1">
                         <a href="https://www.dropbox.com/scl/fi/64ah7gl33su2hkdrtx3qg/Arne-Burns-SIUE-Team-Co-Leader-2018.mov?rlkey=jk5f9ayiwmaarsmh6evngypjj&st=sntimheq&dl=0">
                             <img src={Arne} alt="Arne Burns - 2018"/>
                             <div>Arne Burns - 2018</div>
+                        </a>
+                    </Col>
+                    <Col className="doubleSpace1">
+                        <a href="https://www.youtube.com/watch?v=tsQSjUQ2kd0">
+                            <img src={Emma} alt="Emma Evans - 2023"/>
+                            <div>Emma Evans - 2023</div>
                         </a>
                     </Col>
                     <Col className="doubleSpace1">
@@ -109,18 +109,18 @@ function PastStudents() {
                         </a>
                     </Col>
                     <Col className="doubleSpace1">
-                        <a href="https://www.dropbox.com/scl/fi/eoxo8ixmi44k3jybemxpq/Monica-Co-Leader-Part-1-2018.mp4?rlkey=l9f24a9fp24hwkttqlqqllj5f&st=x3mrn7eg&dl=0">
-                            <img src={Monica} alt="Monica Co-Leader - 2018"/>
-                            <div>Monica Co-Leader - 2018</div>
-                        </a>
-                        <a href="https://www.dropbox.com/scl/fi/7ux3qs2amw3lzp4iawolz/Monica-Co-Leader-Part-2-2018.mp4?rlkey=6ic2jrfmk37cpmy0s97pulk4g&st=nbiphyjd&dl=0">Part 2</a>
-                        <a href="https://www.dropbox.com/scl/fi/t4lbi2knlstt36dd1qfr2/Monica-Co-Leader-Part-3-2018.mp4?rlkey=jw68074ej2t9lhotkw7u3xet3&st=6mju9tik&dl=0">Part 3</a>
-                    </Col>
-                    <Col className="doubleSpace1">
                         <a href="https://www.dropbox.com/scl/fi/h5i3jc20er3ozitaflw20/Stephen-Ndejje-student-1-2018.mp4?rlkey=vwsj7o4c775hjl4hwjlpcg44j&st=grlbjgo6&dl=0">
                             <img src={Stephan} alt="Stephan Co-Leader - 2018"/>
                             <div>Stephan Co-Leader - 2018</div>
                         </a>
+                    </Col>
+                    <Col className="doubleSpace1">
+                        <div><a href="https://www.dropbox.com/scl/fi/eoxo8ixmi44k3jybemxpq/Monica-Co-Leader-Part-1-2018.mp4?rlkey=l9f24a9fp24hwkttqlqqllj5f&st=x3mrn7eg&dl=0">
+                            <img src={Monica} alt="Monica Co-Leader - 2018"/>
+                            <div>Monica Co-Leader - 2018</div>
+                        </a></div>
+                        <div><a href="https://www.dropbox.com/scl/fi/7ux3qs2amw3lzp4iawolz/Monica-Co-Leader-Part-2-2018.mp4?rlkey=6ic2jrfmk37cpmy0s97pulk4g&st=nbiphyjd&dl=0">Part 2</a></div>
+                        <div><a href="https://www.dropbox.com/scl/fi/t4lbi2knlstt36dd1qfr2/Monica-Co-Leader-Part-3-2018.mp4?rlkey=jw68074ej2t9lhotkw7u3xet3&st=6mju9tik&dl=0">Part 3</a></div>
                     </Col>
                 </Row>
             </div>

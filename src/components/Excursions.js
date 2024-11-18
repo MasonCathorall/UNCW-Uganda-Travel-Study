@@ -102,8 +102,8 @@ function Excursions() {
               <br />
               </Col>
               <Col className="doubleSpace">
-              <img src={S2} alt="2024 on Safari"/>
-              <div>2024 On Safari</div>
+              <img src={S4} alt="Chimpanzee Tracking"/>
+              <div>Chimpanzee Tracking</div>
               <br />
               </Col>
               <Col className="doubleSpace">
@@ -112,8 +112,8 @@ function Excursions() {
               <br />
               </Col>
               <Col className="doubleSpace">
-              <img src={S4} alt="Chimpanzee Tracking"/>
-              <div>Chimpanzee Tracking</div>
+              <img src={S2} alt="2024 on Safari"/>
+              <div>2024 on Safari</div>
               <br />
               </Col>
             </Row>
