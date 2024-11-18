@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.13894096.css",
-    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.e778a35a.js",
+    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.71fe5054.js",
     "static/js/453.387295d0.chunk.js": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js",
     "static/media/SF1 Student behind the falls on the hike.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF1 Student behind the falls on the hike.f8dd60c03df16b11b88c.jpeg",
     "static/media/SF2 Katie and Jakub Sipi Falls 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/SF2 Katie and Jakub Sipi Falls 2024.c66b9d12c4486a5a4cf0.jpg",
@@ -41,11 +41,11 @@
     "static/media/Flag_of_Uganda.svg.png": "/UNCW-Uganda-Travel-Study/static/media/Flag_of_Uganda.svg.3bf706ab9c5514828132.png",
     "index.html": "/UNCW-Uganda-Travel-Study/index.html",
     "main.13894096.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.13894096.css.map",
-    "main.e778a35a.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.e778a35a.js.map",
+    "main.71fe5054.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.71fe5054.js.map",
     "453.387295d0.chunk.js.map": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13894096.css",
-    "static/js/main.e778a35a.js"
+    "static/js/main.71fe5054.js"
   ]
 }
