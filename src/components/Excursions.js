@@ -24,9 +24,6 @@ function Excursions() {
           <div className="align-items-center my-5">
             <div>
               <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
-              <h1 className="center1">Global Health Research</h1>
-              <h1 className="center2">Methods & Program Implementation</h1>
-              <h1 className="center3">in Uganda</h1>
             </div>
           </div>
           <div className="exTitle">

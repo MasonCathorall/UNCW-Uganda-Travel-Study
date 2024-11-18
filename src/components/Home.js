@@ -1,7 +1,6 @@
 import React from "react";
 import WorldImg from "../assets/Political-World-Map.jpg";
 import UgandaImg from "../assets/Good Uganda map.jpg";
-import BelizeImg from "../assets/belize-image.gif";
 import WelcomeImg from "../assets/5 Welcome to Uganda sign.jpg";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -15,9 +14,9 @@ function Home() {
         <div className="align-items-center my-5">
           <div>
             <img className="worldImg" src={WorldImg} alt="Political World Map"/>
-            <h1 className="centered1">UNCW Public Health Faculty Led</h1>
-            <h1 className="centered2">Global Health</h1>
-            <h1 className="centered3">Travel Study Programs</h1>
+            <h1 className="centered1">Global Health Research</h1>
+            <h1 className="centered2">Methods & Program Implementation</h1>
+            <h1 className="centered3">in Uganda</h1>
           </div>
         </div>
         <div className="blueRow">
@@ -37,15 +36,10 @@ function Home() {
               <div className="info">Wilmington</div>
               <br />
               <div className="www">Where</div>
-              <div className="info">Uganda or Belize</div>
+              <div className="info">Uganda</div>
               <br />
               <div className="www">When</div>
-              <div className="info">Summer or Spring Break</div>
-          </Col>
-          <Col>
-              <Link className="nav-link" to="https://sites.google.com/celabelize.com/uncw-global-health/home" target="_blank" rel="noopener noreferrer">
-                <img src={BelizeImg} alt="belizeImage" />
-              </Link>
+              <div className="info">Summer</div>
           </Col>
         </Row>
         {/* <div className="doubleSpace">

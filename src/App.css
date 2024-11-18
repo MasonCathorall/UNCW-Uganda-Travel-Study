@@ -203,7 +203,7 @@ ul {
 }
 
 .rows1 {
-  background-color: rgb(100, 154, 180);
+  background-color: rgb(123, 179, 207);
   color: #ffffff;
   border-radius: 10px;
 }
@@ -223,4 +223,8 @@ ul {
 
 .nav-link {
   text-decoration: none;
+}
+
+.moveLeft {
+  padding-left: 10px;
 }

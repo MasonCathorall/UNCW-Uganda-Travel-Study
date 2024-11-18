@@ -5,7 +5,7 @@ import Excursions from './components/Excursions';
 import PastStudents from './components/PastStudents';
 
 const routes = (
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/uganda" component={Uganda} />

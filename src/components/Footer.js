@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="justify-content-md-center">
           <Col>
               <div className="footer">Copyright &copy; {year}. All Rights Reserved.    
-                <SocialIcon href="https://www.instagram.com/uncw_pbh_studyabroad/" url="www.instagram.com" /></div>
+                <span className="moveLeft"><SocialIcon href="https://www.instagram.com/uncw_pbh_studyabroad/" url="www.instagram.com" /></span></div>
           </Col>
           
         </Row>
