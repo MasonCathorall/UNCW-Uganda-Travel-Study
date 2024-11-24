@@ -51,6 +51,14 @@ img {
 	}
 }
 
+@media (max-width:600px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+    text-size-adjust: 50%;
+	}
+}
+
 .container {
   text-align: center;
   color: rgb(0, 0, 0);
