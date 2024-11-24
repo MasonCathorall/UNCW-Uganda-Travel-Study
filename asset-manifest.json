@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.de6012ff.css",
-    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.0eec51d8.js",
+    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.86122c43.css",
+    "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.e694c284.js",
     "static/js/453.387295d0.chunk.js": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js",
     "static/media/SF1 Student behind the falls on the hike.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF1 Student behind the falls on the hike.f8dd60c03df16b11b88c.jpeg",
     "static/media/SF2 Katie and Jakub Sipi Falls 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/SF2 Katie and Jakub Sipi Falls 2024.c66b9d12c4486a5a4cf0.jpg",
     "static/media/S4 Chimpanzee tracking.jpg": "/UNCW-Uganda-Travel-Study/static/media/S4 Chimpanzee tracking.8376521c09c61d2f40a0.jpg",
     "static/media/Jenna Bustamante 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/Jenna Bustamante 2024.5b6efb22ae40ee831b4e.jpg",
-    "static/media/Kate Castro 2024.jpg": "/UNCW-Uganda-Travel-Study/static/media/Kate Castro 2024.f28f69921e3a989156df.jpg",
     "static/media/JT1 Source of the Nile River.jpg": "/UNCW-Uganda-Travel-Study/static/media/JT1 Source of the Nile River.702669c4f269aa72cf56.jpg",
     "static/media/S2 2024 on safari.jpg": "/UNCW-Uganda-Travel-Study/static/media/S2 2024 on safari.d9f45825a4a864e6ac4c.jpg",
     "static/media/1 Safari with Giraffe and Flag.JPG": "/UNCW-Uganda-Travel-Study/static/media/1 Safari with Giraffe and Flag.109f52cc0846cb019ce2.JPG",
@@ -17,14 +16,12 @@
     "static/media/5 Welcome to Uganda sign.jpg": "/UNCW-Uganda-Travel-Study/static/media/5 Welcome to Uganda sign.b30d65c1fc211bbe120e.jpg",
     "static/media/3 Malaria Memory game Malaria Mastery Program Implementation 2024.JPG": "/UNCW-Uganda-Travel-Study/static/media/3 Malaria Memory game Malaria Mastery Program Implementation 2024.e70d79d366b5838fc5c1.JPG",
     "static/media/Heather Morrone 2023.JPG": "/UNCW-Uganda-Travel-Study/static/media/Heather Morrone 2023.0d0095a27c8ef0ea6363.JPG",
-    "static/media/Maddie Duracinsky 2024.JPG": "/UNCW-Uganda-Travel-Study/static/media/Maddie Duracinsky 2024.2b7098cc0a71c6ba349d.JPG",
     "static/media/Stephen Co-Leader 2018.jpg": "/UNCW-Uganda-Travel-Study/static/media/Stephen Co-Leader 2018.42d32227027643e18e49.jpg",
     "static/media/7 The top of Sipi Falls 2-cropped.jpg": "/UNCW-Uganda-Travel-Study/static/media/7 The top of Sipi Falls 2-cropped.a9db942c0fecdd36c02e.jpg",
     "static/media/Mica Coleman 2018.jpg": "/UNCW-Uganda-Travel-Study/static/media/Mica Coleman 2018.a9a86cc1ee0605bd463a.jpg",
     "static/media/Alyssa Robb 2023.JPG": "/UNCW-Uganda-Travel-Study/static/media/Alyssa Robb 2023.9fc3776f11817491401f.JPG",
     "static/media/Emma Evans 2023.JPG": "/UNCW-Uganda-Travel-Study/static/media/Emma Evans 2023.cd406eb36c72f61f8c1c.JPG",
     "static/media/JT3 hike at cultural site.jpg": "/UNCW-Uganda-Travel-Study/static/media/JT3 hike at cultural site.86a4e7f7f24e9333b951.jpg",
-    "static/media/Kate Mulholland 2023.JPG": "/UNCW-Uganda-Travel-Study/static/media/Kate Mulholland 2023.6acc61d0a195579e205f.JPG",
     "static/media/Political-World-Map.jpg": "/UNCW-Uganda-Travel-Study/static/media/Political-World-Map.3fc58918331659ca2a12.jpg",
     "static/media/Good Uganda map.jpg": "/UNCW-Uganda-Travel-Study/static/media/Good Uganda map.f3e5193883bdec39bc46.jpg",
     "static/media/2 Data collection.JPG": "/UNCW-Uganda-Travel-Study/static/media/2 Data collection.e4d8001c3806bf2b0f8f.JPG",
@@ -40,12 +37,12 @@
     "static/media/SF3 coffee farm.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF3 coffee farm.b05869d5e4d432e011bb.jpeg",
     "static/media/Flag_of_Uganda.svg.png": "/UNCW-Uganda-Travel-Study/static/media/Flag_of_Uganda.svg.3bf706ab9c5514828132.png",
     "index.html": "/UNCW-Uganda-Travel-Study/index.html",
-    "main.de6012ff.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.de6012ff.css.map",
-    "main.0eec51d8.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.0eec51d8.js.map",
+    "main.86122c43.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.86122c43.css.map",
+    "main.e694c284.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.e694c284.js.map",
     "453.387295d0.chunk.js.map": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de6012ff.css",
-    "static/js/main.0eec51d8.js"
+    "static/css/main.86122c43.css",
+    "static/js/main.e694c284.js"
   ]
 }
