@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.13894096.css",
+    "main.css": "/UNCW-Uganda-Travel-Study/static/css/main.44878d94.css",
     "main.js": "/UNCW-Uganda-Travel-Study/static/js/main.0eec51d8.js",
     "static/js/453.387295d0.chunk.js": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js",
     "static/media/SF1 Student behind the falls on the hike.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF1 Student behind the falls on the hike.f8dd60c03df16b11b88c.jpeg",
@@ -40,12 +40,12 @@
     "static/media/SF3 coffee farm.jpeg": "/UNCW-Uganda-Travel-Study/static/media/SF3 coffee farm.b05869d5e4d432e011bb.jpeg",
     "static/media/Flag_of_Uganda.svg.png": "/UNCW-Uganda-Travel-Study/static/media/Flag_of_Uganda.svg.3bf706ab9c5514828132.png",
     "index.html": "/UNCW-Uganda-Travel-Study/index.html",
-    "main.13894096.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.13894096.css.map",
+    "main.44878d94.css.map": "/UNCW-Uganda-Travel-Study/static/css/main.44878d94.css.map",
     "main.0eec51d8.js.map": "/UNCW-Uganda-Travel-Study/static/js/main.0eec51d8.js.map",
     "453.387295d0.chunk.js.map": "/UNCW-Uganda-Travel-Study/static/js/453.387295d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13894096.css",
+    "static/css/main.44878d94.css",
     "static/js/main.0eec51d8.js"
   ]
 }
