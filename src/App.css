@@ -44,6 +44,12 @@ img {
   opacity: 65%;
 }
 
+.worldImg1 {
+  width: 90%;
+  height: 150%;
+  background-position: center;
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;

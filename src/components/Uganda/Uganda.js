@@ -17,8 +17,7 @@ function Uganda() {
         <NavBar />
         <div className="align-items-center my-5">
           <div>
-            <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
-            <h1 className="c2">Applied Global Health</h1>
+            <img className="worldImg1" src={FlagImg} alt="Uganda Country Flag"/>
           </div>
         </div>
         <div className="blueRow">
