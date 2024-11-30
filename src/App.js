@@ -8,18 +8,10 @@ import PastStudents from './components/PastStudents';
 import Scholarship from './components/Scholarship';
 
 const App = () => {
-  // const { pathname } = window.location;
-  // if (pathname !== '/home' && !pathname.startsWith('/home')) {
-  //   console.error('The URL must have a basename: /fe');
-  // }
-  // if (window.location.reload) {
-  //   return <Navigate to="/" />;
-  // }
   
   return (
       <div className="app">
         <Routes basename={window.location.pathname || ''}> 
-        {/* <Routes basename="/home"> */}
           <Route path="/" exact element={<Home />} />
           <Route path="/uganda" element={<Uganda />} />
           <Route path="/excursions" element={<Excursions />} />
