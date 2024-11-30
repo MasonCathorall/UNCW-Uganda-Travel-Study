@@ -12,11 +12,13 @@ function Home() {
       <div className="container">
         <NavBar />
         <div className="align-items-center my-5">
-          <div>
+          <div className="imgContainer">
             <img className="worldImg" src={WorldImg} alt="Political World Map"/>
-            <h1 className="centered1">Global Health Research</h1>
-            <h1 className="centered2">Methods & Program Implementation</h1>
-            <h1 className="centered3">in Uganda</h1>
+            <div className="overlay">
+              <h1 className="centered1">Global Health Research</h1>
+              <h1 className="centered2">Training the Next Generation of Social Behavioral Scientists</h1>
+              <h1 className="centered3">to Tackle Health Disparities</h1>
+            </div>
           </div>
         </div>
         <div className="blueRow">

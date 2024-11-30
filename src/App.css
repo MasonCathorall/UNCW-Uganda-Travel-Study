@@ -79,7 +79,30 @@ img {
   padding-bottom: 25px;
 }
 
-.centered1 {
+.imgContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #000000; 
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  font-weight: 700;
+}
+
+/* .centered1 {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -110,7 +133,7 @@ img {
   font-size: 40px;
   padding-top: 40px;
   background-position: center;
-}
+} */
 
 .footer {
   align-items: center;
@@ -244,4 +267,16 @@ ul {
 
 .moveLeft {
   padding-left: 10px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.leftShift {
+  text-align: left;
 }

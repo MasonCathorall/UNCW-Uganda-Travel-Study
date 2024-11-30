@@ -1,15 +1,15 @@
 import React from "react";
-import FlagImg from "../../assets/Flag_of_Uganda.svg.png";
-import UgandaImg from "../../assets/Good Uganda map.jpg";
-import SeaHawksImg from "../../assets/seahawks-logo.png";
-import DataCollection from "../../assets/2 Data collection.JPG";
-import Implementation from "../../assets/3 Malaria Memory game Malaria Mastery Program Implementation 2024.JPG";
-import ExcursionsImg from "../../assets/4 Wings Up in Uganda 2024.jpg";
-import SafariImg from "../../assets/1 Safari with Giraffe and Flag.JPG";
+import FlagImg from "../assets/Flag_of_Uganda.svg.png";
+import UgandaImg from "../assets/Good Uganda map.jpg";
+import SeaHawksImg from "../assets/seahawks-logo.png";
+import DataCollection from "../assets/2 Data collection.JPG";
+import Implementation from "../assets/3 Malaria Memory game Malaria Mastery Program Implementation 2024.JPG";
+import ExcursionsImg from "../assets/4 Wings Up in Uganda 2024.jpg";
+import SafariImg from "../assets/1 Safari with Giraffe and Flag.JPG";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { NavBar } from '../Navbar';
-import { Footer } from '../Footer';
+import { NavBar } from './Navbar';
+import { Footer } from './Footer';
 
 function Uganda() {
   return (
