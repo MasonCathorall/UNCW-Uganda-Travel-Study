@@ -47,7 +47,7 @@ export const NavBar = () => {
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to="/paststudents">
-                      Past Students' 
+                      Past Students
                     </Link>
                   </li>
                   <li className="nav-item">

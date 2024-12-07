@@ -12,13 +12,13 @@ function Scholarship () {
             <br />
                 <Row>
                     <Col>
-                        <img src={AlyssaRob} alt="Alyssa Robb at SOPHE 2024"/>
+                        <img className="worldImg1" src={AlyssaRob} alt="Alyssa Robb at SOPHE 2024"/>
                         <br />
                         <br />
-                        <div>Alyssa Rob at SOPHE 2024</div>
+                        <div>Alyssa Robb at SOPHE 2024</div>
                     </Col>
                     <Col>
-                        <img src={MarybethJohnson} alt="Marybeth Johnson and Alyssa Robb at NC SOPHE 2023"/>
+                        <img className="worldImg1" src={MarybethJohnson} alt="Marybeth Johnson and Alyssa Robb at NC SOPHE 2023"/>
                         <br />
                         <br />
                         <div>Marybeth Johnson and Alyssa Robb at NC SOPHE 2023</div>

@@ -23,7 +23,7 @@ function Excursions() {
           <NavBar />
           <div className="align-items-center my-5">
             <div>
-              <img className="worldImg" src={FlagImg} alt="Uganda Country Flag"/>
+              <img className="worldImg1" src={FlagImg} alt="Uganda Country Flag"/>
             </div>
           </div>
           <div className="exTitle">

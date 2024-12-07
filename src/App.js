@@ -11,7 +11,7 @@ const App = () => {
   
   return (
       <div className="app">
-        <Routes basename={window.location.pathname || ''}> 
+        <Routes> 
           <Route path="/" exact element={<Home />} />
           <Route path="/uganda" element={<Uganda />} />
           <Route path="/excursions" element={<Excursions />} />

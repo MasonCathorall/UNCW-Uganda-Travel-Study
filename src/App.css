@@ -38,15 +38,15 @@ img {
 }
 
 .worldImg {
-  width: 90%;
-  height: 150%;
+  width: 70%;
+  height: auto;
   background-position: center;
   opacity: 65%;
 }
 
 .worldImg1 {
-  width: 90%;
-  height: 150%;
+  width: 70%;
+  height: auto;
   background-position: center;
 }
 
