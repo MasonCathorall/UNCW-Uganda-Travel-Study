@@ -23,7 +23,7 @@ function Home() {
         </div>
         <div className="blueRow">
           <br />
-          <div>Learn about contemporary global health issues while exploring beautiful Uganda!</div>
+          <div>Embark on a journey where data meets discovery—an immersive summer research experience.</div>
           <br />
         </div>
         <Row className="doubleSpace">
